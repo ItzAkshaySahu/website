@@ -1,0 +1,171 @@
+
+#x{
+margin:0;
+padding:0;
+position:absolute;
+top:50%;
+left: 50%;
+transform: translate(-50%,-50%);
+display: flex;
+float:left;
+
+}
+
+#x li{
+list-style: none;
+margin: 0 40px;
+display:inline block;
+}
+
+#x li a .fa{
+font-size: 25px;
+color:#262626;
+line-height: 50px;
+transition: .5s;
+
+text-align: center;
+}
+#x li a{
+position: relative;
+display: block;
+width: 50px;
+height: 50px;
+background:#fff;
+text-align: center;
+transform: perspective(1000px) rotate(-30deg) skew(25deg) translate(0,0);
+transition: .5s;
+box-shadow: -20px 20px 10px rgba(0,0,0,.5);
+}
+
+#x li a:before
+{
+content:'';
+position: absolute;
+top:10px;
+left: -20px;
+height:100%;
+width: 20px;
+background: #b1b1b1;
+transition: .5s;
+transform: rotate(0deg) skewY(-45deg);
+}
+#x li a:after
+{
+content:'';
+position: absolute;
+bottom:-20px;
+left: -10px;
+height:20px;
+width: 100%;
+background: #b1b1b1;
+transition: .5s;
+transform: rotate(0deg) skewX(-45deg);
+}
+#x li a:hover
+{
+transform: perpective(1000px) rotate(-30deg) skew(25deg) translate(20px,-20px);
+box-shadow: -50px 50px 50px rgba(0,0,0,.5);
+
+}
+
+#x li:hover .fa
+{
+color: #fff;
+
+}
+
+#x li:hover:nth-child(1) a
+{
+background:  #3b5999;
+}
+
+#x li:hover:nth-child(1) a:before
+{
+background: #2e4a86;
+}
+
+#x li:hover:nth-child(1) a:after
+{
+background: #4a69ad;
+}
+
+
+#x li:hover:nth-child(2) a
+{
+background: #55acee;
+
+}
+#x li:hover:nth-child(2) a:before
+{
+background: #4184b7;
+}
+
+#x li:hover:nth-child(2) a:after
+{
+background: #4d9fde;
+}
+
+
+
+#x li:hover:nth-child(2) a
+{
+background: #55acee;
+
+}
+#x li:hover:nth-child(2) a:before
+{
+background: #4184b7;
+}
+
+#x li:hover:nth-child(2) a:after
+{
+background: #4d9fde;
+}
+
+
+#x li:hover:nth-child(3) a
+{
+background: #dd4b39;
+
+}
+#x li:hover:nth-child(3) a:before
+{
+background: #c13929;
+}
+
+#x li:hover:nth-child(3) a:after
+{
+background: #c8432e;
+}
+
+
+#x li:hover:nth-child(4) a
+{
+background: #0077B5;
+
+}
+#x li:hover:nth-child(4) a:before
+{
+background: #036aa0;
+}
+
+#x li:hover:nth-child(4) a:after
+{
+background: #0d82bf;
+}
+
+
+#x li:hover:nth-child(5) a
+{
+background: #e4405f;
+
+}
+#x li:hover:nth-child(5) a:before
+{
+background: #d02d4c;
+}
+
+#x li:hover:nth-child(5) a:after
+{
+background: #f1395e;
+}
