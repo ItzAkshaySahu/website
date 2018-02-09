@@ -1,0 +1,90 @@
+a{
+color:#fff;
+text-decoration:none;
+
+}
+.me{
+width:400px;
+margin: 90px auto;
+
+}
+
+.me p
+.me h1{
+text-transform:uppercase;
+letter-spacing: 3px;
+text-align:center;
+}
+
+.me p{
+font-weight:200;
+
+}
+.me span{
+font-weight:bold;
+}
+
+.social ul li{
+display:block;
+margin:5px;
+background-color:rgba(0,0,0,0.36);
+width:300px;
+text-align:right;
+padding:10px;
+-webkit-border-radius: 0 30px 30px 0;
+-moz-border-radius:0 30px 30px 0;
+border-radius: 0 30px 30px 0;
+-webki-transition:all 1s;
+-moz-transition:all 1s;
+-ms-transition:all 1s;
+-0-transition:all 1s;
+transition:all 1s;
+
+}
+
+.social ul li:hover{
+
+-webkit-transform:translate(110px,0);
+-moz-transform:translate(110px,0);
+-ms-transform:translate(110px,0);
+-0-transform:translate(110px,0);
+transform:translate(110px,0);
+
+}
+
+.social ul li:hover a{
+color:#000;
+
+}
+
+.social ul li:hover a{
+color:#fff;
+background:rgba(0,0,0,.36);
+}
+.social ul li {
+margin-left:10px;
+color:#000;
+padding:10px;
+-webkit-border-radius: 50%;
+-moz-border-radius: 50%;
+-border-radius: 50%;
+width:20px;
+height:20px;
+font-size:20px;
+background-color:#ffffff;
+
+-webkit-transform-rotate(0deg);
+
+-moz-transform-rotate(0deg);
+-ms-transform-rotate(0deg);
+-0-transform-rotate(0deg);
+
+transform-rotate(0deg);
+}
+
+body{
+background:#000000000;
+color:#fff;
+font-family:'Rale',sans-serif;
+
+}
